@@ -1,0 +1,30 @@
+:root {
+  --color-peach: #f46752;
+  --color-dark-blue: #1d253c;
+  --color-dark-grey: #5a6482;
+  --color-light-grey: #acb4bf;
+  --color-turquoise: #126f86;
+}
+
+// Mixins
+
+@mixin textProperties {
+  font-size: 19px;
+  line-height: 30px;
+  color: var(--color-dark-grey);
+}
+
+@mixin titleProperties {
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 52px;
+  color: var(--color-dark-blue);
+}
+
+@mixin peachUptitle {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #f46752;
+}
