@@ -105,6 +105,11 @@ body.fixed {
   overflow: hidden;
 }
 
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
 .container {
   max-width: 1110px;
   margin: 0 auto;
@@ -325,6 +330,11 @@ body.fixed {
 @media (max-width: 1024px) {
   .hero__meet {
     margin: 100px auto 100px;
+  }
+}
+@media (max-width: 768px) {
+  .hero__meet {
+    margin: 30px auto 30px;
   }
 }
 

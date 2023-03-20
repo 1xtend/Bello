@@ -15,6 +15,11 @@ body {
   }
 }
 
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
 .container {
   max-width: 1110px;
 
@@ -268,6 +273,10 @@ body {
 
     @media (max-width: 1024px) {
       margin: 100px auto 100px;
+    }
+
+    @media (max-width: 768px) {
+      margin: 30px auto 30px;
     }
   }
 }
